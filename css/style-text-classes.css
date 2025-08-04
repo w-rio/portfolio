@@ -1,0 +1,118 @@
+
+@charset "UTF-8";
+
+/* 共通フォント設定 */
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #333;
+}
+
+/* テキスト系クラス */
+.text-logo {
+  font-size: 48px;
+  font-family: 'Caveat', cursive;
+  font-weight: bold;
+  color: var(--color-main, #336699);
+}
+
+.text-section-title {
+  font-size: 48px;
+  line-height: 1.4;
+}
+
+.text-hero-title {
+  font-size: 40px;
+  line-height: 1.4;
+}
+
+.text-hero-text {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.text-menu-category {
+  font-size: 36px;
+  line-height: 1.4;
+}
+
+.text-menu-title {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.text-menu-description {
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.text-access-label {
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: bold;
+}
+
+.text-access-value {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.text-access-note {
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.text-reservation-description {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.text-reservation-note {
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.text-footer-logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.text-footer-copy {
+  font-size: 12px;
+  color: #666;
+}
+
+/* メディアクエリ（SPサイズ） */
+@media screen and (max-width: 768px) {
+  .text-section-title {
+    font-size: 36px;
+  }
+
+  .text-hero-title {
+    font-size: 24px;
+  }
+
+  .text-hero-text {
+    font-size: 14px;
+  }
+
+  .text-menu-category {
+    font-size: 30px;
+  }
+
+  .text-menu-title {
+    font-size: 16px;
+  }
+
+  .text-access-label {
+    font-size: 14px;
+  }
+
+  .text-access-value {
+    font-size: 13px;
+  }
+
+  .text-reservation-description,
+  .text-reservation-note {
+    font-size: 13px;
+  }
+}
