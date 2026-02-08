@@ -81,6 +81,7 @@ section {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
     padding: 24px;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .figma-title {
@@ -212,4 +213,5 @@ section {
     #hero p {
         font-size: 16px;
     }
+
 }
